@@ -4,7 +4,7 @@ import './App.css';
 import Home from './pages/Home';
 import Nav from './components/Nav';
 import Projects from './pages/Projects';
-// import Resume from './components/Resume';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 // import { PDFViewer } from '@react-pdf/renderer';
 
@@ -19,7 +19,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/home' component={Home} />
           <Route exact path='/projects' component={Projects} />
-          {/* <Route exact path='/resume' component={Resume} /> */}
+          <Route exact path='/resume' component={Resume} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
       </div>

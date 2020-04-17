@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import AboutMe from '../../components/AboutMe';
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
                 </div>
                 <div className="overlay"></div>
             </header>
+            <AboutMe />
         </div>
     )
 };

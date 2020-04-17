@@ -15,21 +15,16 @@ function Nav() {
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link
-                                to="/"
-                                className={
-                                    window.location.pathname === '/' ||
-                                    window.location.pathname === '/about'
-                                      ? 'nav-link active'
-                                      : 'nav-link'
-                                }>Projects</Link>
-                                {/* <a id="project" className="nav-link" href="#">Projects</a> */}
+                                <Link to="/home" id="project" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a id="resume" className="nav-link" href="#">Resume</a>
+                                <Link to="/projects" id="project" className="nav-link">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <a id="contact" className="nav-link" href="#">Contact</a>
+                                <Link to="/resume" id="resume" className="nav-link">Resume</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="contact" id="contact" className="nav-link">Contact</Link>
                             </li>
                         </ul>
                     </div>
