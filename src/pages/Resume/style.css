@@ -1,13 +1,56 @@
-#container{
-    background-image: url("../../assets/treeRoot.png"); 
-    width:1000px;
+#tree{
+    width:900px;
     height:1200px; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     margin-top: 60px;
+    position: inline-block;
 }
 
-img{
-    position: relative;
-}
+
+  #test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #test2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 100px;
+  }
+
+  #test3 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    margin: 260px;
+  }
+
+  #test4 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    margin: 320px;
+  }
+  #test5 {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin: 360px;
+  }
+  #test6 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin: 440px;
+  }
+
