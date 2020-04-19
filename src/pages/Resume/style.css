@@ -18,39 +18,51 @@
 
   #test2 {
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin: 100px;
   }
 
   #test3 {
     position: absolute;
-    top: 40%;
-    left: 35%;
+    top: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    margin: 260px;
+    margin: 300px;
   }
 
   #test4 {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 35%;
     transform: translate(-50%, -50%);
     margin: 320px;
   }
   #test5 {
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 30%;
     transform: translate(-50%, -50%);
     margin: 360px;
   }
   #test6 {
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 30%;
     transform: translate(-50%, -50%);
-    margin: 440px;
+    margin: 400px;
   }
+
+
+iframe{
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+h2{
+  margin-top: 100px;
+  margin-right: 80px;
+}
 
