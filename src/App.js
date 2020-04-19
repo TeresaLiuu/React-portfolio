@@ -6,7 +6,6 @@ import Nav from './components/Nav';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-// import { PDFViewer } from '@react-pdf/renderer';
 
 
 function App() {
